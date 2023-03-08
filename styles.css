@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url(http://www.zingerbugimages.com/backgrounds/wrinkled_notebook_paper_background_1800x1600.jpg)
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Rampart One', cursive;
+}
+
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.selections {
+
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.btn {
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 20px;
+}
+
+#start {
+    background-color: #2ecc40;
+}
+
+#reset {
+    background-color: black;
+    color: white;
+}
+
+.gridItem {
+    border: 0.5px solid black;
+}
